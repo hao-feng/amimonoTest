@@ -1,0 +1,33 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - testPod (0.0.1)
+
+DEPENDENCIES:
+  - BlocksKit
+  - testPod (from `./testPod`)
+
+EXTERNAL SOURCES:
+  testPod:
+    :path: "./testPod"
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  testPod: ebac473c3861c7adddad227c2bc3ce7c81d46ea5
+
+PODFILE CHECKSUM: f3b811f72bdfef8c60952218f51268d914612f61
+
+COCOAPODS: 1.2.0
